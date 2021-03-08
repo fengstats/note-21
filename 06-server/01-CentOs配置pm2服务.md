@@ -126,6 +126,12 @@ pm2 restart server.js
 pm2 del 0
 ```
 
+- 停止任务
+
+```shell
+pm2 stop 0
+```
+
 - 查看指定任务log信息
 
 ```shell

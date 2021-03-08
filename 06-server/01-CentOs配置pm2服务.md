@@ -27,7 +27,7 @@ tar -xvf node-v14.16.0-linux-x64.tar.xz
 
 #### 4.建立软链接(可以在任何地方使用node与npm命令)
 
-> 先查看自己安装Node安装包的目录(pwd) 我的目录是 /root/chen/software 如果你的不是 下面配置软连接时需要替换掉这个目录为你的
+> 先查看自己安装Node安装包的目录(pwd) 我的目录是 /root/chen/software 如果你的不是, 下面配置软链接时需要替换掉这个目录为你的
 
 ![termius](images/3.png)
 
@@ -56,8 +56,78 @@ npm -v
 ![termius](images/4.png)
 
 
+
+### 配置淘宝镜像
+
+#### 1.全局配置
+
+```shell
+npm config set registry https://registry.npm.taobao.org
+```
+
+#### 2.查看配置
+```shell
+npm config get registry
+```
+
+![termius](images/5.png)
+
+
+
 ### 安装pm2
 
+#### 1.全局安装
 
+```shell
+npm i -g pm2
+```
 
-### 部署前端项目
+![termius](images/6.png)
+
+#### 2.查看是否成功
+
+```shell
+pm2
+```
+
+![termius](images/7.png)
+
+#### 3.配置软链接
+
+> ！！！需要注意, 安装成功后可能出现 -bash: pm2: command not found 错误, 先确认自己是否成功安装, 如果成功安装了下一步就配置下软链接即可, 如果上一步成功打印, 正常显示, 忽略即可
+
+```shell
+ln -s /root/chen/software/node-v14.16.0-linux-x64/bin/pm2 /usr/local/bin/
+```
+
+#### 4.常用命令
+
+- 查看任务
+
+```shell
+pm2 list
+```
+
+- 启动任务, server.js是启动服务文件(注意换成自己的文件名称)
+
+```shell
+pm2 start server.js
+```
+
+- 重启任务
+
+```shell
+pm2 restart server.js
+```
+
+- 删除指定任务, 0为任务编号, 可以在"查看任务"时看见
+
+```shell
+pm2 del 0
+```
+
+- 查看指定任务log信息
+
+```shell
+pm2 log 0
+```

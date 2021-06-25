@@ -108,10 +108,12 @@ ln -s /root/chen/software/node-v14.16.0-linux-x64/bin/pm2 /usr/local/bin/
 pm2 list
 ```
 
-- 启动任务, server.js是启动服务文件(注意换成自己的文件名称)
+- 启动任务，server.js是启动服务文件(注意换成自己的文件名称)
+- --name 设置启动应用程序名称
+- --watch 设置监听，当有文件改变时自动更新
 
 ```shell
-pm2 start server.js
+pm2 start server.js --name="server" --watch
 ```
 
 - 重启任务

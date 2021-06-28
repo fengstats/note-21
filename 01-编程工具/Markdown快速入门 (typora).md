@@ -132,7 +132,7 @@ npm install webpack
 ![图片被鼠标悬浮时的描述文字](https://cdn.nlark.com/yuque/0/2020/png/1619171/1603077561772-avatar/4cc70975-ede3-4fb9-a979-b66b42021703.png?x-oss-process=image%2Fresize%2Cm_fill%2Cw_320%2Ch_320%2Fformat%2Cpng)
 
 
-![图片被鼠标悬浮时的描述文字](images/PEN1.png)
+![](https://gitee.com/feng-picgo-images/images/raw/master/img/wangyi.png)
 
 
 ## 7. 超链接

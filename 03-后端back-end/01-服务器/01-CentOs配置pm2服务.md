@@ -6,14 +6,14 @@
 
 > 因为我们需要在CentOs服务器上进行配置, 所以我们选择Linux版本安装包, 如下
 
-![Node](images/1.png)
+![Node](https://gitee.com/feng-picgo-images/images/raw/master/img/server/1.png)
 
 
 #### 2.将下载好的安装包上传至服务器
 
 > 我这边是直接使用`termius`远程服务器连接工具通过sftp直接进行上传的, 当然亦使用其它工具或方式
 
-![termius](images/2.png)
+![termius](https://gitee.com/feng-picgo-images/images/raw/master/img/server/2.png)
 
 
 #### 3.解压安装包
@@ -29,7 +29,7 @@ tar -xvf node-v14.16.0-linux-x64.tar.xz
 
 > 先查看自己安装Node安装包的目录(pwd) 我的目录是 /root/chen/software 如果你的不是, 下面配置软链接时需要替换掉这个目录为你的
 
-![termius](images/3.png)
+![termius](https://gitee.com/feng-picgo-images/images/raw/master/img/server/3.png)
 
 - node
 
@@ -53,7 +53,7 @@ npm -v
 
 > 如下所示则为成功
 
-![termius](images/4.png)
+![termius](https://gitee.com/feng-picgo-images/images/raw/master/img/server/4.png)
 
 
 
@@ -70,7 +70,7 @@ npm config set registry https://registry.npm.taobao.org
 npm config get registry
 ```
 
-![termius](images/5.png)
+![termius](https://gitee.com/feng-picgo-images/images/raw/master/img/server/5.png)
 
 
 
@@ -82,7 +82,7 @@ npm config get registry
 npm i -g pm2
 ```
 
-![termius](images/6.png)
+![termius](https://gitee.com/feng-picgo-images/images/raw/master/img/server/6.png)
 
 #### 2.查看是否成功
 
@@ -90,7 +90,7 @@ npm i -g pm2
 pm2
 ```
 
-![termius](images/7.png)
+![termius](https://gitee.com/feng-picgo-images/images/raw/master/img/server/7.png)
 
 #### 3.配置软链接
 

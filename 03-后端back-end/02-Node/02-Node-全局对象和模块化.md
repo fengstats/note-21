@@ -71,7 +71,7 @@ Node 中的进程信息
 
 ### JavaScript 模块化规范
 
-**CommonJs 规范**
+#### CommonJs 规范
 
 导出
 
@@ -90,6 +90,12 @@ console.log(bar); // { name: 'chen' }
 
 可以看到其实就是把 exports 这个对象整体导出了，然后在 main.js 中使用 bar 这个常量接收，这时的 bar = exports; 因为它们两者的内存地址是一样的，都指向着同一个存放在堆中的对象。
 
+#### AMD
+
+#### CMD
+
+#### ES6 Module
+
 ### module.exports 和 exports 之间的关系
 
 聊一聊 Node 内部的 module.exports 和 exports 吧
@@ -105,3 +111,9 @@ module.exports 才是完成导出模块的核心，只不过内部 Node 中做�
 **为什么有了 module.exports 导出功能了还要有 exports**
 
 这其实就涉及到一个规范了，CommonJS 的定义导出使用的就是 exports，那么如果 Node 不支持这种方式的导出，那么可能之前了解过 CommonJS 规范的人就不知道怎么导出了，主要都是为了迎合规范所做出的的一些改变。
+
+
+### 文件循环加载时出现的问题
+
+深度优先
+广度优先

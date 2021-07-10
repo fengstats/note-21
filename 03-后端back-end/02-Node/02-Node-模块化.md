@@ -141,7 +141,7 @@ ES6 Module 的规范是通过两个关键字去定义的
 
 ![](https://gitee.com/feng-picgo-images/images/raw/master/img/node/11-ES-Module-default.png)
 
-默认导出，可以结合 CommonJS 的 `require()` 导入，但是一个模块只能存在一个 `export default`，且不影响其它 `export` 导出，其它的导出你还是可以通过 `import {}` 的语法导入
+默认导出，但是一个模块只能存在一个 `export default`，且不影响其它 `export` 导出，其它的导出你还是可以通过 `import {}` 的语法导入
 
 这里的导出如果是基本类型那么就是一个拷贝，如果是引用类型，那么就是某个堆中内存地址的传递
 

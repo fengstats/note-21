@@ -74,9 +74,30 @@ if (true) {
   obj.method();
 }
 
+```
 
+#### 隐式绑定丢失
+
+```javascript
+// 'use strict';
+function foo() {
+    console.log(this);
+}
+
+var obj = {
+    name: 'chen',
+    foo: foo
+};
+
+obj.foo(); // obj 对象
+var newFoo = obj.foo;
+newFoo(); // 普通模式下：window  严格模式下：undefined
+
+// 这种方式其实就是那句 谁调用 指向谁
+window.newFoo(); // window
 
 ```
+
 
 
 ### 如何改变 this 指向

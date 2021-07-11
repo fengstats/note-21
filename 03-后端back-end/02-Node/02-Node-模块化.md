@@ -4,7 +4,7 @@
 
 ![](https://gitee.com/feng-picgo-images/images/raw/master/img/node/05-Node-参数传递.png)
 
-process 是 Node 的进程信息（全局对象中介绍），argv 属性存储一个数组，相信上述案例已经很说明如何传参以及数组中每个元素的信息了，我们如果想获取到我们手动传递的第一个参数则需要使用 `process.argv[2]` 后续参数的纯涤以此类推
+process 是 Node 的进程信息（全局对象中介绍），argv（argument vector）属性存储一个数组，相信上述案例已经很说明如何传参以及数组中每个元素的信息了，我们如果想获取到我们手动传递的第一个参数则需要使用 `process.argv[2]` 后续参数的纯涤以此类推
 
 
 

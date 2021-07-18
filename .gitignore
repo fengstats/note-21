@@ -2,6 +2,7 @@
 node_modules/
 /dist/
 /00-my-plan/
+/_book
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

@@ -38,6 +38,7 @@
 - [工具](03-back-end/03-tools/README.md)
   - [yarn 工具安装配置](03-back-end/03-tools/02-yarn-工具安装配置.md)
   - [nvm-windows 管理工具](03-back-end/03-tools/03-nvm-windows-管理工具.md)
+  - [Node-RED 安装与使用](03-back-end/03-tools/03-Node-RED-安装与使用.md)
 
 ### 个人随笔
 

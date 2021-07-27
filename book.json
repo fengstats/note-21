@@ -27,7 +27,8 @@
     "tbfed-pagefooter",
     "anchor-navigation-ex",
     "copy-code-button",
-    "theme-comscore"
+    "theme-comscore",
+    "hide-element"
   ],
   "pluginsConfig": {
     "theme-api": {
@@ -40,12 +41,15 @@
       "tocLevel3Icon": "fa fa-hand-o-right"
     },
     "tbfed-pagefooter": {
-      "copyright": "Copyright &copy zhangjikai.com 2017",
-      "modify_label": "该文件修订时间：",
+      "copyright": "Copyright &copy lazy 2021",
+      "modify_label": "这个时间段你改了文件诶：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "theme-default": {
       "showLevel": true
+    },
+    "hide-element": {
+      "elements": [".gitbook-link"]
     }
   }
 }

@@ -46,7 +46,7 @@
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "theme-default": {
-      "showLevel": true
+      "showLevel": false
     },
     "hide-element": {
       "elements": [".gitbook-link"]

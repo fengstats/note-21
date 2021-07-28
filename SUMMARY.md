@@ -44,8 +44,9 @@
   - [02-编辑器样式插件](01-code-tools/01-visual-studio-code/02-编辑器样式插件.md)
   - [03-修改主题注释颜色](01-code-tools/01-visual-studio-code/03-修改主题注释颜色.md)
 
-- [Git](01-code-tools/02-git/99-错误总结.md)
-  - [01-错误总结](01-code-tools/02-git/99-错误总结.md)
+- [Git](01-code-tools/02-git/01-git-入坑指南.md)
+  - [01-入坑指南](01-code-tools/02-git/01-git-入坑指南.md)
+  - [02-错误记录](01-code-tools/02-git/99-错误总结.md)
 
 - [Markdown](01-code-tools/03-markdown/01-markdown-快速入门-typora.md)
   - [01-快速入门](01-code-tools/03-markdown/01-markdown-快速入门-typora.md)

@@ -17,6 +17,7 @@
 1. 文档更新：[CentOS 防火墙端口开放](/03-back-end/01-server/03-CentOS-端口开放命令.md) 改了改样式排版
 2. 文档更新：[nvm-windows 管理工具](/01-code-tools/05-node-tools/03-nvm-windows-管理工具.md) 改了改样式排版
 3. 文档更新：[yarn 工具安装配置](/01-code-tools/05-node-tools/02-yarn-工具安装配置.md) 加了需要 Node 的安装前提
+4. 文档编写：[git 入坑指南](01-code-tools/02-git/01-git-入坑指南.md)
 
 #### 2021-07-27
 

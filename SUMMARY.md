@@ -1,6 +1,6 @@
 # Summary
 
-- [随便说点什么](README.md)
+- [随便聊聊，随便听听](README.md)
  
 <!-- 
 前端路径:
@@ -30,7 +30,7 @@
 - [服务](03-back-end/01-server/01-CentOS-配置pm2服务.md)
   - [01-CentOS 配置 pm2 服务](03-back-end/01-server/01-CentOS-配置pm2服务.md)
   - [02-node 补充](03-back-end/01-server/02-node补充.md)
-  - [03-CentOS 开放端口](03-back-end/01-server/03-CentOS-端口开放命令.md)
+  - [03-CentOS 防火墙端口开放](03-back-end/01-server/03-CentOS-端口开放命令.md)
 
 - [Node](03-back-end/02-node/01-Node-安装与基本使用.md)
   - [01-Node 安装与基本使用](03-back-end/02-node/01-Node-安装与基本使用.md)

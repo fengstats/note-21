@@ -1,14 +1,18 @@
-## yarn
+# yarn
 
-### 安装
+## 安装
 
-> 需要你先去安装 NodeJs，自行百度
+**前提：保证你在 Node 正常可用下的环境运行**
+
+若没有安装 Node，请看这一篇：
+
+[Node 安装与基本使用](/03-back-end/02-node/01-Node-安装与基本使用.md)
 
 ```shell
 npm i -g yarn
 ```
 
-### 配置国内源
+## 配置国内源
 
 ```shell
 yarn config set registry https://registry.npm.taobao.org --global
@@ -16,7 +20,7 @@ yarn config set registry https://registry.npm.taobao.org --global
 yarn config set disturl https://npm.taobao.org/dist --global
 ```
 
-### 常用命令
+## 常用命令
 
 ```shell
 # 版本

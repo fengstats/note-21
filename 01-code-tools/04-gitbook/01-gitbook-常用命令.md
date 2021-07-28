@@ -15,7 +15,7 @@ npm -v
 
 ### 1. Node 版本导致代码兼容问题
 
-![报错信息](https://gitee.com/feng-picgo-images/images/raw/master/img/code-tools/gitbook/01-报错信息.png)
+![报错信息](https://gitee.com/feng-picgo-images/images/raw/master/notes/01-code-tools/gitbook/01-报错信息.png)
 
 > 这个问题有两种方式可以解决
 
@@ -27,7 +27,7 @@ npm -v
 
 就比较简单了，各版本应该通用，找到报错的 polyfills.js 文件，应该是 62-64 行的代码出现了问题，把它注释了就好了~
 
-![注释文件详情](https://gitee.com/feng-picgo-images/images/raw/master/img/code-tools/gitbook/02-注释polyfills文件代码.png)
+![注释文件详情](https://gitee.com/feng-picgo-images/images/raw/master/notes/01-code-tools/gitbook/02-注释polyfills文件代码.png)
 
 ### 2. gitbook serve 热加载失败
 
@@ -69,7 +69,7 @@ gitbook init
 gitbook install
 ```
 
-列出当前安装的版本
+**列出当前已安装的版本**
 
 ```shell
 gitbook ls
@@ -83,19 +83,10 @@ gitbook ls
 gitbook serve
 ```
 
-生成一个 html 电子书文档目录（_book/）
+**编译**：生成一个 html 电子书文档目录（_book/）
 
 > html 文件可以直接打开，但是依赖于其目录下得其它文件才能形成电子书
 
 ```shell
 gitbook build
 ```
-
-
-
-
-
-
-
-### 
-

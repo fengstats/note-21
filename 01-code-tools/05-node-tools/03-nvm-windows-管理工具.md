@@ -1,6 +1,8 @@
-# nvm Node 包管理工具（Windows）
+# nvm Node 管理工具（Windows）
 
-这个东西就是关于 Node 的包管理工具，可以在多个不同的 Node 版本之间来回切换，但是需要主要的时，如果是 Windows 用户需要去下载 [nvm-windows](https://github.com/coreybutler/nvm-windows/releases)，直接找到 nvm-setup.zip 下载解压，然后安装，我们这一篇只介绍在 Window 下的命令。
+[nvm-windows 下载地址](https://github.com/coreybutler/nvm-windows/releases)
+
+这个东西就是关于 Node 的包管理工具，可以在多个不同的 Node 版本之间来回切换，Windows 用户需要去下载（上述链接），直接找到 nvm-setup.zip 下载解压，然后安装，我们这一篇只介绍在 Window 下的命令。
 
 **配置国内镜像（淘宝）**
 ```shell

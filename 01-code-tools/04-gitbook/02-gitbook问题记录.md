@@ -1,16 +1,3 @@
-# gitbook 常用命令
-
-## 前置条件
-
-想要运行 gitbook 需要依赖于 Node 环境，也就是你需要提前安装 Node
-
-> 检查 Node 是否安装
-
-```shell
-node -v
-npm -v
-```
-
 ## 问题记录
 
 ### 1. Node 版本导致代码兼容问题
@@ -43,50 +30,23 @@ npm -v
 
 就是每次在 gitbook serve 启动好服务后，手动删除`_book\`目录，一次就好，后面服务会自动创建该目录，虽然很 low，但确实有用......
 
-## 常用命令
 
-**全局安装**
+### 3. Error: ENOENT: no such file or directory
 
-```shell
-npm install -g gitbook-cli
+> stat 'D:\00-my-notes\_book\gitbook\gitbook-plugin-splitter\splitter.css'
+
+在用户目录下找到这个文件 `copyPluginAssets.js` 或者通过全局检索工具 Everything 找一下也可以
+
+```
+.gitbook\versions\3.2.3\lib\output\website\copyPluginAssets.js
 ```
 
-**版本查看**：若提示不是内部或外部命令则检查自己安装是否成功
-
-```shell
-gitbook --version
+找到
+```
+confirm: true
 ```
 
-**初始化**：需要找一个空的目录进行初始化
-
-```shell
-gitbook init
+替换为
 ```
-
-**安装 gitbook 的依赖库**：一般是拉取了别人的 gitbook 项目之后首先需要做的事
-
-```shell
-gitbook install
-```
-
-**列出当前已安装的版本**
-
-```shell
-gitbook ls
-```
-
-
-
-**启动一个本地 gitbook 服务端口页面（热加载：内容更改自动更新）**
-
-```shell
-gitbook serve
-```
-
-**编译**：生成一个 html 电子书文档目录（_book/）
-
-> html 文件可以直接打开，但是依赖于其目录下得其它文件才能形成电子书
-
-```shell
-gitbook build
+confirm: false
 ```

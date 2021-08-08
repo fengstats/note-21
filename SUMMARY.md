@@ -40,9 +40,9 @@
 ## 开发工具
 
 - [Visual Studio Code](01-code-tools/01-visual-studio-code/01-前端插件推荐.md)
-  - [01-前端插件推荐](01-code-tools/01-visual-studio-code/01-前端插件推荐.md)
-  - [02-编辑器样式插件](01-code-tools/01-visual-studio-code/02-编辑器样式插件.md)
-  - [03-修改主题注释颜色](01-code-tools/01-visual-studio-code/03-修改主题注释颜色.md)
+  - [01 插件分享](01-code-tools/01-visual-studio-code/01-前端插件推荐.md)
+  - [02 怎样拥有一个好看的主题？](01-code-tools/01-visual-studio-code/02-编辑器样式插件.md)
+  - [03 注释颜色不太好看？看这里](01-code-tools/01-visual-studio-code/03-修改主题注释颜色.md)
 
 - [Git](01-code-tools/02-git/01-git-入坑指南.md)
   - [01-入坑指南](01-code-tools/02-git/01-git-入坑指南.md)

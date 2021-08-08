@@ -25,8 +25,7 @@
 2. 文档更新：[gitbook 问题记录](/01-code-tools/04-gitbook/02-gitbook问题记录.md)
 3. 文档编写：[vim vscode 安装](/01-code-tools/06-vim/01-vim-vscode-安装.md)
 4. 文档编写：[vim 指尖飞舞的利器](/01-code-tools/06-vim/02-vim日常命令.md)
-5. 文档编写：[vscode 入门指南](/01-code-tools/01-visual-studio-code/00-入门指南.md)
-6. 文档编写：[个人近期技术发展方向]()
+5. 文档编写：[个人近期技术发展方向](/00-mine/01-近期工作技术发展方向.md)
 
 #### 2021-08-02
 

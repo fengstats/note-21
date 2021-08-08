@@ -45,10 +45,9 @@
   - [02 让你指尖飞舞的利器](01-code-tools/06-vim/02-vim日常命令.md)
 
 - [Visual Studio Code](01-code-tools/01-visual-studio-code/01-前端插件推荐.md)
-  - [01 入门指南](01-code-tools/01-visual-studio-code/00-入门指南.md)
-  - [02 插件分享](01-code-tools/01-visual-studio-code/01-前端插件推荐.md)
-  - [03 怎样拥有一个好看的主题？](01-code-tools/01-visual-studio-code/02-编辑器样式插件.md)
-  - [04 注释颜色不太好看？看这里](01-code-tools/01-visual-studio-code/03-修改主题注释颜色.md)
+  - [01 插件分享](01-code-tools/01-visual-studio-code/01-前端插件推荐.md)
+  - [02 怎样拥有一个好看的主题？](01-code-tools/01-visual-studio-code/02-编辑器样式插件.md)
+  - [03 注释颜色不太好看？看这里](01-code-tools/01-visual-studio-code/03-修改主题注释颜色.md)
 
 - [Git](01-code-tools/02-git/01-git-入坑指南.md)
   - [01 入坑啦](01-code-tools/02-git/01-git-入坑指南.md)
@@ -72,4 +71,4 @@
   - [01 浏览器标签模块分类](00-mine/01-模块分类/01-浏览器标签页模块分类.md)
   - [02 学习仓库模块分化](00-mine/01-模块分类/02-学习仓库模块分化.md)
 
-- [近期技术发展方向]()
+- [近期技术发展方向](/00-mine/01-近期工作技术发展方向.md)

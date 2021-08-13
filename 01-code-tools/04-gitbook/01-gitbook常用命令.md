@@ -43,15 +43,13 @@ gitbook install
 gitbook ls
 ```
 
-
-
 **启动一个本地 gitbook 服务端口页面（热加载：内容更改自动更新）**
 
 ```shell
 gitbook serve
 ```
 
-**编译**：生成一个 html 电子书文档目录（_book/）
+**编译**：生成一个 html 电子书文档目录（\_book/）
 
 > html 文件可以直接打开，但是依赖于其目录下得其它文件才能形成电子书
 

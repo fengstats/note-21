@@ -21,11 +21,12 @@ Windows 下的安装非常简单，我给你提供两个地址。第一个是下
 #### Homebrew
 
 官方提供的下载不太行，原因是：
+
 > 国外源下载，速度太慢了...
 
 **所以我们还是要感谢国内的大佬把这个安装程序弄到了 gitee（码云：阿里的），这样速度就很快乐，并且贴心的给我们提供下载源选择，再次感谢！！！**
 
-[大佬的 shell 程序](https://gitee.com/cunkai/HomebrewCN/blob/master/Homebrew.sh  )
+[大佬的 shell 程序](https://gitee.com/cunkai/HomebrewCN/blob/master/Homebrew.sh)
 
 > 下面有两条命令
 
@@ -35,7 +36,7 @@ Windows 下的安装非常简单，我给你提供两个地址。第一个是下
 /bin/bash -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)""
 ```
 
-##### 一条是 /bin/zsh 环境执行 
+##### 一条是 /bin/zsh 环境执行
 
 ```shell
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
@@ -52,7 +53,6 @@ Windows 下的安装非常简单，我给你提供两个地址。第一个是下
 ```shell
 brew install git
 ```
-
 
 ## 本地仓库的操作
 
@@ -140,4 +140,3 @@ git push -u origin master
 ```shell
 git branch -a
 ```
-

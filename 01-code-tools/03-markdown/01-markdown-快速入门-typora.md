@@ -1,15 +1,15 @@
-# Markdown快速入门 (typora)
+# Markdown 快速入门 (typora)
 
 ## 1. 代码块
 
-```javascript
+````javascript
 // 代码块语法:
 ​```java
 
 ​```shell
 
 ​```python
-```
+````
 
 - JavaScript
 
@@ -21,7 +21,7 @@ function Stack() {
   Stack.prototype.pop = () => this.items.pop();
   Stack.prototype.peek = () => this.items[this.items.length - 1];
   Stack.prototype.size = () => this.items.length;
-  Stack.prototype.isEmpty = () => !this.items.length
+  Stack.prototype.isEmpty = () => !this.items.length;
   Stack.prototype.toString = () => {
     let resultString = "";
     for (let i = 0; i < this.items.length; i++) {
@@ -32,13 +32,11 @@ function Stack() {
 }
 ```
 
-- shell脚本
+- shell 脚本
 
 ```shell
 npm install webpack
 ```
-
-
 
 ## 2. 标题
 
@@ -52,10 +50,15 @@ npm install webpack
 ```
 
 > # 一级标题
+>
 > ## 二级标题
+>
 > ### 三级标题
+>
 > #### 四级标题
+>
 > ##### 五级标题
+>
 > ###### 六级标题
 
 ## 3. 字体
@@ -69,7 +72,7 @@ npm install webpack
 
 // 删除线
 ~~我是要被删除的文字~~
-    
+
 // 斜体
 *斜体内容*
 
@@ -86,12 +89,11 @@ npm install webpack
 
 ~~我是要被删除的文字~~
 
-*斜体内容*
+_斜体内容_
 
 这个^上标^
 
 这个~下标~
-
 
 ## 4. 引用
 
@@ -102,10 +104,11 @@ npm install webpack
 >>>作者 小陈
 ```
 
->作者 小陈
->>作者 小陈
->>>作者 小陈
-
+> 作者 小陈
+>
+> > 作者 小陈
+> >
+> > > 作者 小陈
 
 ## 5. 分割线
 
@@ -116,11 +119,10 @@ npm install webpack
 // 分割线
 ***
 ```
+
 ---
 
-***
-
-
+---
 
 ## 6. 图片插入
 
@@ -131,9 +133,7 @@ npm install webpack
 
 ![图片被鼠标悬浮时的描述文字](https://cdn.nlark.com/yuque/0/2020/png/1619171/1603077561772-avatar/4cc70975-ede3-4fb9-a979-b66b42021703.png?x-oss-process=image%2Fresize%2Cm_fill%2Cw_320%2Ch_320%2Fformat%2Cpng)
 
-
 ![](https://gitee.com/feng-picgo-images/images/raw/master/img/wangyi.png)
-
 
 ## 7. 超链接
 
@@ -144,14 +144,11 @@ npm install webpack
 
 [超链接文本提示](https://www.yuque.com/xiaochentongzhi)
 
-
 ## 8. 列表
 
 ```javascript
 // 无序列表
-- 目录一
-- 目录二
-- 目录三
+-目录一 - 目录二 - 目录三;
 
 // 有序列表
 // 1 + . + 空格 + 标题等内容
@@ -176,6 +173,6 @@ npm install webpack
 ```
 
 | 数学 | 语文 | 英语 |
-| :-- | :--: | --: |
-| 20 | 40 | 90 |
-| 20 | 40 | 90 |
+| :--- | :--: | ---: |
+| 20   |  40  |   90 |
+| 20   |  40  |   90 |

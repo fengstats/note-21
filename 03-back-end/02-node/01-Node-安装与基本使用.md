@@ -2,7 +2,7 @@
 
 ## 安装
 
-[Node下载地址](http://nodejs.cn/download/)
+[Node 下载地址](http://nodejs.cn/download/)
 
 找到对应平台下载即可，LTS 版本为稳定发行版，其次为最新版，如果是学习那么建议下载最新版本（某些新特性支持），如果是公司项目建议下载 `LTS 版本`，或者去这篇我写的 [nvm-windows node 管理工具](/01-code-tools/05-node-tools/03-nvm-windows-管理工具.md)，可以让你同时安装不同 Node 版本，并且来回切换。
 
@@ -20,6 +20,7 @@ npm -v
 ![](https://gitee.com/feng-picgo-images/images/raw/master/img/node/01-Hello-Node.png)
 
 `index.js`
+
 ```javaScript
 console.log('Hello Node');
 ```
@@ -31,7 +32,6 @@ node index.js
 ```
 
 > 注：需要在有 index.js 文件的路径下执行哦，否则可能找不到文件
-
 
 ## 什么是 REPL ？
 

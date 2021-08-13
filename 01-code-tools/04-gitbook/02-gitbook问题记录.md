@@ -30,10 +30,9 @@
 
 就是每次在 gitbook serve 启动好服务后，手动删除`_book\`目录，一次就好，后面服务会自动创建该目录，虽然很 low，但确实有用......
 
-
 ### 3. Error: ENOENT: no such file or directory
 
-> stat 'D:\00-my-notes\_book\gitbook\gitbook-plugin-splitter\splitter.css'
+> stat 'D:\00-my-notes_book\gitbook\gitbook-plugin-splitter\splitter.css'
 
 在用户目录下找到这个文件 `copyPluginAssets.js` 或者通过全局检索工具 Everything 找一下也可以
 
@@ -42,11 +41,13 @@
 ```
 
 找到
+
 ```
 confirm: true
 ```
 
 替换为
+
 ```
 confirm: false
 ```

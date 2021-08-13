@@ -11,8 +11,8 @@ npm --version
 
 输出类似下方则为正常
 
->v14.17.2.0
->6.14.13
+> v14.17.2.0
+> 6.14.13
 
 如果输出
 
@@ -26,13 +26,8 @@ npm --version
 npm install -g --unsafe-perm node-red
 ```
 
-
-
 ## 使用
 
 ```shell
 node-red
 ```
-
-
-

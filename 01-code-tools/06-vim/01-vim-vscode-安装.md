@@ -4,7 +4,6 @@ todo......
 
 模式 +（操作符 + 动作）= 高效
 
-
 ### 1. 插件下载
 
 直接 `Ctrl` + `Shift` + `X` 然后输入 vim 第一个直接安装
@@ -22,71 +21,38 @@ todo......
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": [
-        "j",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<leader>",
-        "d"
-      ],
-      "after": [
-        "d",
-        "d"
-      ]
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
     },
     {
-      "before": [
-        "<C-n>"
-      ],
-      "commands": [
-        ":nohl"
-      ]
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
     },
     // 将光标移动至当前行行首: H 替换 ^
     {
-      "before": [
-        "H"
-      ],
-      "after": [
-        "^"
-      ]
+      "before": ["H"],
+      "after": ["^"]
     },
     // 将光标移动至当前行行末: L 替换 $
     {
-      "before": [
-        "L"
-      ],
-      "after": [
-        "$"
-      ]
+      "before": ["L"],
+      "after": ["$"]
     },
     // 切换到上一个标签页: E 替换 gT
     {
-      "before": [
-        "E"
-      ],
-      "after": [
-        "g",
-        "T"
-      ]
+      "before": ["E"],
+      "after": ["g", "T"]
     },
     // 切换到下一个标签页: E 替换 gt
     {
-      "before": [
-        "R"
-      ],
-      "after": [
-        "g",
-        "t"
-      ]
+      "before": ["R"],
+      "after": ["g", "t"]
     }
   ],
   "vim.leader": "<space>",

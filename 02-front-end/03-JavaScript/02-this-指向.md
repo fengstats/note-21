@@ -3,7 +3,7 @@
 ```javaScript
 web  : globalThis, window, this, self, frames
 Node : globalThis, global
-woker: globalThis, self, 
+woker: globalThis, self,
 通用 : globalThis
 ```
 
@@ -79,12 +79,12 @@ if (true) {
 ```javascript
 // 'use strict';
 function foo() {
-    console.log(this);
+  console.log(this);
 }
 
 var obj = {
-    name: 'chen',
-    foo: foo
+  name: "chen",
+  foo: foo,
 };
 
 obj.foo(); // obj 对象
@@ -93,14 +93,11 @@ newFoo(); // 普通模式下：window  严格模式下：undefined
 
 // 这种方式其实就是那句 谁调用 指向谁
 window.newFoo(); // window
-
 ```
-
-
 
 ### 如何改变 this 指向
 
-总结：call 和 apply 参数方面不同，适用于需要改变完 this 指向后立即执行的函数，且它们返回 undefined，bind 适用于不需要立即调用的函数，参数方面与 call保持一致，会返回一个新的函数
+总结：call 和 apply 参数方面不同，适用于需要改变完 this 指向后立即执行的函数，且它们返回 undefined，bind 适用于不需要立即调用的函数，参数方面与 call 保持一致，会返回一个新的函数
 
 ```javaScript
 var obj = {
@@ -184,7 +181,7 @@ if (false) {
   test.test();
   // test.test1();
   // test.test2();
-  // console.log(Test);  
+  // console.log(Test);
 }
 
 if (true) {
@@ -231,19 +228,17 @@ if (true) {
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>this指向</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>this指向</title>
-</head>
-
-<body>
-  <button id='btn'>测试点击事件</button>
-  <script src="./this.js"></script>
-</body>
-
+  <body>
+    <button id="btn">测试点击事件</button>
+    <script src="./this.js"></script>
+  </body>
 </html>
 ```
 
@@ -288,4 +283,3 @@ if (true) {
 
 new Plus(1, 2);
 ```
-

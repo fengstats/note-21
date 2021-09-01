@@ -34,10 +34,11 @@
   - [02 Node 补充](03-back-end/01-server/02-node补充.md)
   - [03 CentOS 如何开放端口](03-back-end/01-server/03-CentOS-端口开放命令.md)
 
-- [Node](03-back-end/02-node/01-Node-安装与基本使用.md)
-  - [01 Node 安装](03-back-end/02-node/01-Node-安装与基本使用.md)
-  - [02 Node 深入浅出模块化](03-back-end/02-node/02-Node-模块化.md)
-  - [03 Node-RED 入坑啦](03-back-end/02-node/03-Node-RED-安装与使用.md)
+- [Node](/03-back-end/02-node/01-Node-安装与基本使用.md)
+  - [01 Node 安装](/03-back-end/02-node/01-Node-安装与基本使用.md)
+  - [02 Node 深入浅出模块化](/03-back-end/02-node/02-Node-模块化.md)
+  - [03 Node-RED 入坑啦](/03-back-end/02-node/03-Node-RED-安装与使用.md)
+  - [04 express 初体验](/03-back-end/02-node/01_express/01_express-初体验.md)
 
 ## 开发工具
 
